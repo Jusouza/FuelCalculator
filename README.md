@@ -3,11 +3,11 @@ This project was develop in Android with the programming language Kotlin, has a 
 
 ## 📸: Screenshots
 
-<img src="https://github.com/user-attachments/assets/70650ff2-f634-46a9-9e9a-4470d0d1a4bb" width=260/>
-<img src="https://github.com/user-attachments/assets/93117dd0-9550-4492-97cd-37f5f0102bed" width=260/>
-<img src="https://github.com/user-attachments/assets/b39005ba-e80b-46f6-a9a4-3ff550cb0469" width=260/>
-<img src="https://github.com/user-attachments/assets/bd778da7-b194-4dfd-a27d-246e9c9ceced" width=260/>
-<img src="https://github.com/user-attachments/assets/a70d9341-8db0-426e-9618-02e8ea66afb5" width=260/>
+<img src="https://github.com/user-attachments/assets/70ecff97-7ddf-4db2-b322-e543502c7e1e" width=260/>
+<img src="https://github.com/user-attachments/assets/8d2ba41b-ca3c-45e9-b80e-e2ab81cf4b65" width=260/>
+<img src="https://github.com/user-attachments/assets/3c2e7e32-e6b8-44e5-b103-cb0d1926829f" width=260/>
+<img src="https://github.com/user-attachments/assets/2a2d2049-d016-4e8b-8d47-eb3b8fa05ffa" width=260/>
+<img src="https://github.com/user-attachments/assets/7c93e8f8-b10a-469e-90fd-1d498067a6f1" width=260/>
 
 
 ## Tecnologies
