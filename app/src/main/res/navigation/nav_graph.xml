@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startCalculatorFragment">
+
+    <fragment
+        android:id="@+id/startCalculatorFragment"
+        android:name="com.example.fuelcalculator.ui.StartCalculatorFragment"
+        android:label="Start">
+        <action
+            android:id="@+id/action_start_to_gas"
+            app:destination="@id/gasPriceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gasPriceFragment"
+        android:name="com.example.fuelcalculator.ui.GasPriceFragment"
+        android:label="Fuel Price">
+        <action
+            android:id="@+id/action_gas_to_consumption"
+            app:destination="@id/carConsumptionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/carConsumptionFragment"
+        android:name="com.example.fuelcalculator.ui.CarConsumptionFragment"
+        android:label="Consumption">
+        <action
+            android:id="@+id/action_consumption_to_distance"
+            app:destination="@id/distanceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/distanceFragment"
+        android:name="com.example.fuelcalculator.ui.DistanceFragment"
+        android:label="Distance">
+        <action
+            android:id="@+id/action_distance_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.fuelcalculator.ui.ResultFragment"
+        android:label="Result">
+        <action
+            android:id="@+id/action_result_to_start"
+            app:destination="@id/startCalculatorFragment"
+            app:popUpTo="@id/startCalculatorFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+</navigation>

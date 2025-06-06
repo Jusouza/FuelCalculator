@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GasCalculator</string>
+    <string name="gas_consumption_calculator">Gas consumption calculator</string>
+    <string name="gas_price">Gas price</string>
+    <string name="Distance">Distance until the destiny</string>
+    <string name="car_consumption">Car\'s consumption</string>
+    <string name="description">Don\'t know how much you\'ll spend on gas on your trip?\n Then you\'ve come to the right place!</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_new_calculation">New calculation</string>
+    <string name="step_1">Step 1 to 3</string>
+    <string name="step_2">Step 2 to 3</string>
+    <string name="step_3">Step 3 to 3</string>
+    <string name="ex_car_consumption">Ex.5 km/L</string>
+    <string name="ex_gas_price">Ex. 3.50</string>
+    <string name="ex_distance">Ex.40 km</string>
+    <string name="result_description">Check all inserted data</string>
+    <string name="km_result">Km</string>
+    <string name="consumption_result">Consumption</string>
+    <string name="price_result">Price</string>
+    <string name="ex_gas_price_toast">Enter a valid value Ex. 3.50</string>
+    <string name="ex_car_consumption_toast">Enter a valid value Ex.5 km/L</string>
+    <string name="ex_distance_toast">Enter a valid value Ex.40 km</string>
+    <string name="format_total">$ %.2f</string>
+
+</resources>
